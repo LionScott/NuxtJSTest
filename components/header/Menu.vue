@@ -46,7 +46,7 @@ export default {
 }
 
 .el-menu-item {
-  line-height: 90px;
+  line-height: 40px;
   box-sizing: initial;
 }
 
