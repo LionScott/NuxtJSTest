@@ -40,14 +40,25 @@ export default {
       currentPage3: 5,
       currentPage4: 4,
       guide: [
-          { id: 1, title: "安 装", content: "content txt for install" },
-          { id: 2, title: "项目目录结构", content: "" },
-          { id: 3, title: "配 置", content: "" },
-          { id: 4, title: "路 由", content: "" },
-          { id: 5, title: "视 图", content: "" },
-          { id: 6, title: "异步数据", content: "" }
-        ]
+        { id: 1, title: "安 装", content: "content txt for install" },
+        { id: 2, title: "项目目录结构", content: "" },
+        { id: 3, title: "配 置", content: "" },
+        { id: 4, title: "路 由", content: "" },
+        { id: 5, title: "视 图", content: "" },
+        { id: 6, title: "异步数据", content: "" }
+      ]
     };
   }
 };
 </script>
+
+<style scoped>
+.el-pager li {
+  height: 48px;
+  line-height: 48px;
+}
+
+.el-pagination span:not([class*=suffix]) {
+  height: 48px;
+}
+</style>

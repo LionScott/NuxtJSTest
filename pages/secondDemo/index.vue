@@ -3,8 +3,8 @@
     <h1>Stars: {{ demoData }}</h1>
     <div>
       <form action>
-        <el-input v-model="demoData" pattern="([a-z]|[A-Z]|[0-9])*"></el-input>
-        <el-button type="submit" class="el-icon-search"></el-button>
+        数字或者大小写字母：<input v-model="demoData" pattern="([a-z]|[A-Z]|[0-9])*" />
+        <button type="submit" class="el-icon-search"></button>
       </form>
     </div>
     <a :href="url">baidu</a>

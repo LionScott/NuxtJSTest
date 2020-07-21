@@ -1,7 +1,7 @@
 
 <template>
   <el-container>
-    <el-header>
+    <el-header style="height: 84px;">
       <Menu class="demo_menu"></Menu>
     </el-header>
     <el-container>
@@ -45,11 +45,12 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  height: 120px;
 }
 
 .el-menu--horizontal > .el-menu-item {
   color: aliceblue;
+  height: 78px;
+  line-height: 78px;
 }
 
 .demo_header {
